@@ -1,0 +1,10 @@
+Pan STEP: GPIO 17 (Physical Pin 11)
+Pan DIR: GPIO 27 (Pin 13)
+Pan EN: GPIO 22 (Pin 15) - LOW to enable
+Tilt STEP: GPIO 23 (Pin 16)
+Tilt DIR: GPIO 24 (Pin 18)
+Tilt EN: GPIO 25 (Pin 22) - LOW to enable
+Laser TTL: GPIO 18 (Pin 12) - HIGH to fire
+
+Common GND for all. External 12V for steppers/drivers. Add 1kΩ series on STEP/DIR, 10kΩ pull-down on EN to GND.
+Decoupling caps: 100µF + 0.1µF on driver VMOT/GND.
